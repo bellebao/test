@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "foo" {
   tags = merge({
     Demo = "public-read-write"
     }, {
-    yor_trace = "86fdf6d6-d9fb-483c-9502-e1e4f8aaa309"
+    yor_trace = "a51262fb-deff-4dc2-b18a-075f6b6c426f"
     }, {
     git_commit           = "dd9fb87aa4652d07b39fdb21cde1ace618cbb76e"
     git_file             = "s3.tf"
